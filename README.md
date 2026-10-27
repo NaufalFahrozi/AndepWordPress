@@ -42,9 +42,11 @@ Website komunitas kreatif fiktif **Studio Karya Nusa** yang dibuat dengan WordPr
 ### Paling mudah — portable
 
 1. Extract `Studio-Karya-Nusa-Portable.zip` ke folder sederhana, misalnya `C:\StudioKaryaNusa`.
-2. Double-click **`MULAI.bat`**.
+2. Buka folder hasil extract (`AndepWordPress`), lalu double-click **`MULAI.bat`**.
 3. Tunggu beberapa detik; browser otomatis membuka <http://localhost:8080>.
 4. Untuk mematikan, double-click **`MATIKAN.bat`**.
+
+> ZIP portable tidak disertakan di repo GitHub karena berisi binary PHP + MariaDB (172 MB). Minta file ZIP-nya dari pemilik proyek. Repo GitHub berisi source, konten, backup SQL/WXR, dan laporan UTS.
 
 Tidak perlu install XAMPP, Laragon, PHP, atau MySQL. Semua sudah ada di dalam folder portable.
 
@@ -53,7 +55,7 @@ Tidak perlu install XAMPP, Laragon, PHP, atau MySQL. Semua sudah ada di dalam fo
 1. Matikan website di laptop asal dengan `MATIKAN.bat`.
 2. Copy **seluruh folder** (atau extract ZIP portable) ke laptop Windows 11 tujuan.
 3. Letakkan di path sederhana, misalnya `C:\StudioKaryaNusa` (hindari path yang terlalu panjang).
-4. Double-click `MULAI.bat`.
+4. Buka folder `AndepWordPress`, lalu double-click `MULAI.bat`.
 5. Alamat tetap <http://localhost:8080>.
 
 > Jika Windows Defender/SmartScreen bertanya, pilih **Allow / Run anyway**. Script hanya menjalankan PHP dan MariaDB lokal dari folder proyek.
