@@ -24,6 +24,17 @@ Website komunitas kreatif fiktif **Studio Karya Nusa** yang dibuat dengan WordPr
 
 ---
 
+## Panduan untuk teman
+
+Baca **[Panduan Transfer & Demo](docs/PANDUAN-TRANSFER-DAN-DEMO.md)** untuk:
+- cara menyerahkan website ke laptop teman,
+- script demo ke dosen,
+- cara membuat post baru langkah demi langkah,
+- cara mengedit Page/Post, kategori/tag, menu, homepage,
+- backup, restore, dan troubleshooting.
+
+Panduan ini juga ikut di dalam ZIP portable (`docs/PANDUAN-TRANSFER-DAN-DEMO.md`).
+
 ## Preview
 
 - **Front-end:** <http://localhost:8080>
